@@ -1079,6 +1079,9 @@ button {
     gap: 10px 14px;
     padding-bottom: 10px;
   }
+  .hero-orbit-card {
+    width: 100%;
+  }
   .section {
     padding-top: 105px;
   }
