@@ -1,5 +1,6 @@
 {
   "name": "mikael-bernardino-portfolio",
+  "homepage": "https://mgdino.github.io/",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -18,5 +19,7 @@
     "react-dom": "latest",
     "vite": "latest"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
