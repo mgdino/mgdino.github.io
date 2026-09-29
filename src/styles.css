@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap");
 
 :root {
+  color-scheme: dark;
+
   font-family: "Inter", system-ui, sans-serif;
   color: #eeeef2;
   background: #09090b;
@@ -21,9 +23,13 @@
   box-sizing: border-box;
 }
 html {
+  color-scheme: dark;
+  background: #0a0a0a;
   scroll-behavior: smooth;
 }
 body {
+  background: #0a0a0a;
+  color: #ffffff;
   margin: 0;
   min-width: 320px;
   background: var(--bg);
@@ -233,10 +239,11 @@ button {
 }
 .gradient-text {
   display: block;
-  background: linear-gradient(110deg, #fff 5%, #a69bff 48%, #74eadb 95%);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='.35'%3E%3Cstop offset='.05' stop-color='%23fff'/%3E%3Cstop offset='.48' stop-color='%23a69bff'/%3E%3Cstop offset='.95' stop-color='%2374eadb'/%3E%3C/linearGradient%3E%3Crect width='1' height='1' fill='url(%23g)'/%3E%3C/svg%3E");
+  background-size: 100% 100%;
   -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 .hero-description {
   max-width: 650px;
