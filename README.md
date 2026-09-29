@@ -1,29 +1,31 @@
-# Mikael Bernardino — Portfolio
+# Hi, I'm Gian
 
-Dark, responsive React SPA portfolio built with Vite.
+I'm a Software Engineer focused on building practical, scalable applications.
 
-## Local development
+My interests include **full-stack development, mobile engineering, cloud-ready systems, and applied AI/ML**. I enjoy turning ideas into working products and learning new technologies through hands-on projects.
 
-```bash
-npm install
-npm run dev
-```
+## Technologies
 
-## Production build
+- **Languages:** Python, JavaScript, TypeScript, Java, Swift, SQL
+- **Frontend:** React, Next.js, Flutter
+- **Backend:** Node.js, NestJS, Django, Spring Boot
+- **Databases:** PostgreSQL, MySQL, MongoDB, Redis
+- **Cloud & DevOps:** AWS, Docker, Nginx, CI/CD
+- **AI/ML:** Machine Learning, NLP, Data Analysis
 
-```bash
-npm run build
-npm run preview
-```
+## What I Build
 
-## Vercel
+I work on projects involving:
 
-Deploy the repository directly to Vercel. The framework should be detected as Vite automatically.
+- Full-stack web applications
+- REST APIs and backend systems
+- Mobile applications
+- Database-driven platforms
+- Cloud and deployment workflows
+- Machine learning and data-driven applications
 
-No backend, database, or server-side runtime is required, so the site is suitable for Vercel's free tier.
+## Connect
 
-## Customize
-
-Main content lives in `src/main.jsx` and visual styling lives in `src/styles.css`.
-
-Update the GitHub/LinkedIn links and any project URLs before publishing.
+- **Website:** https://mgdino.github.io
+- **LinkedIn:** https://www.linkedin.com/in/gian-bernardino/
+- **GitHub:** https://github.com/mgdino
